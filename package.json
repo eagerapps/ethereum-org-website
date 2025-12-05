@@ -20,6 +20,8 @@
     "crowdin-clean": "rm -rf .crowdin && mkdir .crowdin",
     "crowdin-import": "ts-node src/scripts/crowdin-import.ts",
     "markdown-checker": "ts-node -O '{ \"module\": \"commonjs\" }' src/scripts/markdownChecker.ts",
+    "link-checker": "ts-node -O '{ \"module\": \"commonjs\" }' src/scripts/brokenLinkChecker.ts",
+    "link-checker:external": "ts-node -O '{ \"module\": \"commonjs\" }' src/scripts/brokenLinkChecker.ts --external",
     "events-import": "ts-node -O '{ \"module\": \"commonjs\" }' src/scripts/events-import.ts",
     "crowdin-needs-review": "ts-node -O '{ \"module\": \"commonjs\" }' src/scripts/crowdin/reports/generateReviewReport.ts",
     "update-tutorials": "ts-node -O '{ \"module\": \"commonjs\" }' src/scripts/update-tutorials-list.ts",
