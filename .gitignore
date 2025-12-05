@@ -65,3 +65,8 @@ src/data/crowdin/bucketsAwaitingReviewReport.csv
 build-storybook.log
 build-archive.log
 storybook-static
+
+# Link checker reports
+broken-links-report.json
+broken-links-summary.json
+link-checker-output.txt
